@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Simple Chat</h1>
+        </header>
+
+        <main class="main">
+            <div class="chat-sidebar">
+                <div class="user-list">
+                    <ul>
+                        <li>
+                            <img src="user1.png" alt="User 1">
+                            <span>User 1</span>
+                        </li>
+                        <li>
+                            <img src="user2.png" alt="User 2">
+                            <span>User 2</span>
+                        </li>
+                        <li>
+                            <img src="user3.png" alt="User 3">
+                            <span>User 3</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="chat-box">
+                <div class="messages">
+                    <div class="message">
+                        <img src="user1.png" alt="User 1">
+                        <span class="message-sender">User 1:</span>
+                        <span class="message-content">Hello there!</span>
+                    </div>
+
+                    <div class="message">
+                        <img src="user2.png" alt="User 2">
+                        <span class="message-sender">User 2:</span>
+                        <span class="message-content">Hi there!</span>
+                    </div>
+
+                    <div class="message">
+                        <img src="user3.png" alt="User 3">
+                        <span class="message-sender">User 3:</span>
+                        <span class="message-content">How's it going?</span>
+                    </div>
+                </div>
+
+                <form class="message-form">
+                    <input type="text" placeholder="Type your message here">
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
